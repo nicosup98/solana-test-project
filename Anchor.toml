@@ -1,0 +1,14 @@
+[features]
+seeds = false
+[programs.devnet]
+solana_test_project = "FtSHo9DxJqmyM4AoMyAVAE5umLdQvc5LfbVepwy7419Q"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "/home/nicosup/.config/solana/id.json"
+
+[scripts]
+test = "node tests/solana-test-project.js"
